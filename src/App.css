@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 5;
+  color: black;
+  box-shadow: 0 0 5px rgba(218, 188, 188, 0.5);
+}
+.card:hover {
+  background-color: #f6f8fa;
+}
+
+.header {
+  background-color: #e0e2e4;
+  color: #000;
+}
+
+.content {
+  width: 15vw;
+  border-width: 1px;
+  border-color: #e0e2e4;
+  border-style: solid;
+  height: 50vh;
+}
+
+.table {
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.read-the-docs {
+  color: #888;
+}
